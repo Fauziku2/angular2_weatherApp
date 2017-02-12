@@ -11,6 +11,7 @@ var platform_browser_1 = require("@angular/platform-browser");
 var app_component_1 = require("./app.component");
 var city_list_component_1 = require("./city-list.component");
 var weather_component_1 = require("./weather.component");
+var app_routes_1 = require("./app.routes");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -18,7 +19,7 @@ var AppModule = (function () {
 }());
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule],
+        imports: [platform_browser_1.BrowserModule, app_routes_1.routing],
         declarations: [app_component_1.AppComponent, city_list_component_1.CityListComponent, weather_component_1.WeatherComponent],
         bootstrap: [app_component_1.AppComponent]
     })

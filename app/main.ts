@@ -4,9 +4,10 @@ import { BrowserModule } from "@angular/platform-browser";
 import { AppComponent } from "./app.component";
 import { CityListComponent } from "./city-list.component";
 import { WeatherComponent } from "./weather.component";
+import { routing } from "./app.routes";
 
 @NgModule({
-  imports: [ BrowserModule ],
+  imports: [ BrowserModule, routing ],
   declarations: [ AppComponent, CityListComponent, WeatherComponent ],
   bootstrap: [ AppComponent ]
 })
