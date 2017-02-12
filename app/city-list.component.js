@@ -24,6 +24,5 @@ CityListComponent = __decorate([
     }),
     __metadata("design:paramtypes", [weather_service_1.WeatherService])
 ], CityListComponent);
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = CityListComponent;
+exports.CityListComponent = CityListComponent;
 //# sourceMappingURL=city-list.component.js.map

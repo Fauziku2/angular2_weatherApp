@@ -1,7 +1,7 @@
 import { ModuleWithProviders } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
-import CityListComponent from "./city-list.component";
-import WeatherComponent from "./weather.component";
+import { CityListComponent }  from "./city-list.component";
+import { WeatherComponent } from "./weather.component";
 
 const routes: Routes = [
   {path: "", component: CityListComponent}, // root path

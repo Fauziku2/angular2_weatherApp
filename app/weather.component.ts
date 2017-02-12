@@ -7,7 +7,7 @@ import { WeatherInformation, WeatherService} from "./weather.service";
   templateUrl: "/app/weather.component.html"
 })
 
-export default class WeatherComponent implements OnInit {
+export class WeatherComponent implements OnInit {
   weather: WeatherInformation = undefined;
 
   constructor(private weatherService: WeatherService, private route: ActivatedRoute) {}

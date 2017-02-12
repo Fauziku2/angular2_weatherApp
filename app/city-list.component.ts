@@ -6,7 +6,7 @@ import { City, WeatherService } from "./weather.service";
   templateUrl: "/app/city-list.component.html"
 })
 
-export default class CityListComponent {
+export class CityListComponent {
   cities: Array<City> = this.weatherService.cities;
 
   constructor(private weatherService: WeatherService) {}

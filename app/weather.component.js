@@ -36,6 +36,5 @@ WeatherComponent = __decorate([
     }),
     __metadata("design:paramtypes", [weather_service_1.WeatherService, router_1.ActivatedRoute])
 ], WeatherComponent);
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = WeatherComponent;
+exports.WeatherComponent = WeatherComponent;
 //# sourceMappingURL=weather.component.js.map
